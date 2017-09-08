@@ -1,0 +1,31 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Example Page</title>
+        <meta name="description" content="A Super basic html page">
+        <meta name="author" content="Paulo Lemus">
+        
+        <link rel="stylesheet" href="{{ static_url("css/styles.css") }}" type="text/css">
+
+    </head>
+
+    <body class="center">
+
+        <div class="navigation-bar">
+            <ul>
+                <li>Home</li>
+                <li>Store</li>
+                <li>Docs</li>
+            </ul>
+        </div>
+
+        <div class="main-page">
+            <h1 class="center">Hello World!!</h1>
+            <button class="center" id="noticeBtn" type="button">Notice</button>
+        </div>
+        <script src="{{ static_url("js/buttonClick.js") }}"></script>
+    </body>
+</html>

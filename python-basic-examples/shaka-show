@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+"""
+Small example of how the shaka-show program will parse options passed as arguments.
+We should be able to launch on a specific file, and take options such as:
+* port number
+* browser
+* help
+* think of more lol
+
+https://docs.python.org/3/library/argparse.html
+"""
+
+import argparse
+
+argparser = argparse.ArgumentParser(description='A web based debugger for the Shaka-Scheme interpreter.')
+argparser.add_argument('schemeSource', metavar='S', type=str, nargs='?', help='Scheme source code')
+argparser.add_argument('--port', dest='port', default='8888', action='store')
+
+arguments = argparser.parse_args()
+print(arguments.port)
+print(arguments.schemeSource)
