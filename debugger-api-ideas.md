@@ -76,8 +76,6 @@ Ping - get a return packet of ping type
 kill - shutdown everything
 port - Set port for publishers
 
-
-
 modprocedure - Set state of procedures
 getprocedures - Get all the procedures in their approriate order
 getprocedure - get info on specific procedure.
@@ -87,6 +85,7 @@ getprocedure - get info on specific procedure.
 
 halt - halt until new instruction changes
 step - move forward one instruction
+kill - Finish VM
 
 Envwatch - 
     Levels to care about
@@ -106,4 +105,50 @@ Varwatch -
 
 DB api - convert shaka-data or json to content sendable content. Worry about sending data.
 inherit from heapvirtual machine
+
+
+## Presentation
+
+Things to talk about:
+1 Agenda - What we are going to talk about
+2 Shaka-Scheme - Brief review from austin's presentation
+3 Motivation - Why re we doing this
+4 Shaka-Show - high level what is it?
+5 Goals - What we should end up with in the end.
+6 Specifications
+ a. Overall design - Components, backend and front end
+ b. Usage
+
+7 Shaka-Scheme Debugger API
+ a. Debugger VM
+ b. Com specificaion
+
+8 ZMQ socket communication
+ a. Scheme side
+ b. Raw, generic, with the messaging specification anyone can make a debugger front end, which is what shaka-show is
+ c. Publishers, how they work
+
+9 Python server
+ a. Debugger implementation of shaka-scheme debugger API
+ b. Overall design
+ c. IOLopp
+ d. ZMQ backend
+ e. Reuqest handler and WebSsocketHandler browser communication
+
+10 Frontend / Browser
+ a. What it looks like
+ b. what it does
+ c. Operations you can do
+
+11 Shaka-Show folder structure
+
+12 Meta
+ a. Agile
+ b. Trello
+ c. Dev days
+
+13 Timeline
+
+14 Questions
+
 
