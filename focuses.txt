@@ -1,0 +1,6 @@
+Python TEsting and Mocks - Tyler, Jared
+Tornado Handler and Application - BeeJay, Jared
+Tornado template engine - Jessie, Tyler
+Python ZMQ sockets - Paulo, Beejay
+JS - Jessie, Paulo
+

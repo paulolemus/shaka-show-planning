@@ -21,4 +21,3 @@
 * develop js for pause btn (1)
 * develop js for stop btn (1)
 * develop js for step btn (0)
-* 

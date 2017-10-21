@@ -18,6 +18,28 @@ The purpose of Shaka-Show is to create web based application in which the user c
 We are making it web based so it can be very user / beginner friendly. Everyone is familiar with interacting with web-based applications, and with a set of simple controls or features, using the debugger should be a no-brainer.
 The reason that we are making the debugger as a web-based application is so in the future we will be able to include a visual representation of the evaluation of source code.
 
+# Our issues
+
+Shaka-Scheme is awesome, it is really well documented for beginners.
+The issue however, is that Scheme may be considered a difficult language for some, especially for those who are new to programming. Shaka-Scheme is intended for these new folk, however there is nothing that the interpreter does that makes our interpreter differeent from any other, apart from being unoptimized.
+We want to give future users something that I wish we had for other languages:
+An easy to use debugger.
+TBH: Using a command line debugger may be easy in an objective sense, but it can definitely be intimidating for someone to pick up, especially when they are still learning the language.
+This is why a Web based debugger would be ideal for newbies. We want to provide an easy to use debugger to the user in a way that they will instantly be familiar with: Through a web browser.
+
+# Objectives
+
+Build Debugger API in Shaka-Scheme exposed via ZMQ sockets (for IPC)
+Build communication channels and messaging format for C++ \<--\> Py IPC
+Build Debugger WebApp in Python
+Frontend Communication == Tornado Request Handlers and Tornado IOLoop
+Build responsive UX
+Contains: Source Code display with line numbering and breakpoints
+          Variable watch
+          Control panel
+          Env watch
+          Console
+
 
 # Shaka-Show Initial Features
 

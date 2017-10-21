@@ -1,0 +1,23 @@
+Focus:
+Enforce messaging format between Python and C++
+
+
+Integrate Callback into IOLoop in Develop branch
+Save output of a C++ program STDUT and STD ERR
+Publish all text in a file through to the Shaka-Show APP
+Figure out where to save string received from a socket in a place where handlers can
+use it
+
+Options - Activate a handler to react to new data within CALLBACK
+        - Save new data into a queue, handler checks and waits to react.
+
+Build a barebones Console emulator panel
+Convert to a templalted version
+Build a Handler that sends string to the console in browser
+Build JS to handle saving history of logs and displaying them like a normal terminal
+
+Paulo - First work with Billy to unnderstand current design of the VM
+2nd - Understand environment and how variables are stored
+3rd - Compile list of data, and types of data that we would need to acess.
+4th - Build a message format for communcating this information between us
+5 - look in to methods to enforece a specific messaging format
